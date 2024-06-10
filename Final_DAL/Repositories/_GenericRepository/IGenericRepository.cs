@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Final_DAL.Repositories._GenericRepository
 {
-    public interface IGenericRepository
+    public interface IGenericRepository<T> where T : class
     {
+        IEnumerable<T> GetAll();
+
+        T GetById(int id);
+        T Add(T T);
+        T Update(T T);
+        bool Delete(int id);
+
+        bool Delete(T T);
     }
 }
