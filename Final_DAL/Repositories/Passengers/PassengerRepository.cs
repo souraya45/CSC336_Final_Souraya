@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Final_DAL.Repositories.Passengers
 {
-    public class PassengerRepository
-    {
+    public class PassengerRepository : IPassengerRepository
+    { 
     }
 }

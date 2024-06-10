@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Final_DAL.Repositories.Airplanes
 {
-    public class AirplaneRepository
+    public class AirplaneRepository : IAirplaneRepository
     {
     }
 }

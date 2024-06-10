@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Final_DAL.Repositories.Reservations
 {
-    public class ReservationRepository
+    public class ReservationRepository : IReservationRepository
     {
     }
 }

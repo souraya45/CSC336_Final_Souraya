@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Final_DAL.Repositories.Flights
 {
-    public class FlightRepository
+    public class FlightRepository : IFlightRepository
     {
     }
 }

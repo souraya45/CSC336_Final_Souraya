@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Final_DAL.Repositories.Pilots
 {
-    public class PilotRepository
+    public class PilotRepository :IPilotRepository
     {
     }
 }
